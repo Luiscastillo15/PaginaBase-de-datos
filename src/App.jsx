@@ -7,6 +7,7 @@ import manejadores from "/imagenes/manejadores.png";
 import entidad from "/imagenes/entidad.png";
 import relacion from "/imagenes/relacion.jpg";
 import atributo from "/imagenes/atributo.png";
+import modeloer from "/imagenes/modeloer.jpg";
 
 function App() {
   return (
@@ -334,7 +335,7 @@ function App() {
               <img
                 alt="content"
                 className=" object-center object-contain h-full w-full"
-                src="./public/imagenes/modeloer.jpg"
+                src={modeloer}
               />
             </div>
             <p className="leading-relaxed text-lg mb-8 text-justify pt-7">
