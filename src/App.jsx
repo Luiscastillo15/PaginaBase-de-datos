@@ -41,7 +41,7 @@ function App() {
               <img
                 alt="content"
                 className=" object-center object-conver h-full w-full"
-                src="./src/imagenes/bdd.jpg"
+                src="./public/imagenes/bdd.jpg"
               />
             </div>
             <p className="leading-relaxed text-lg mb-8 text-justify pt-3">
@@ -70,7 +70,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./src/imagenes/bddrelacionales.jpg"
+                  src="./public/imagenes/bddrelacionales.jpg"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -91,7 +91,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./src/imagenes/bddNoSQL.jpg"
+                  src="./public/imagenes/bddNoSQL.jpg"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -111,7 +111,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./src/imagenes/bddrientadaobjetos.png"
+                  src="./public/imagenes/bddrientadaobjetos.png"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -130,7 +130,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./src/imagenes/bddnube.jpg"
+                  src="./public/imagenes/bddnube.jpg"
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -155,7 +155,7 @@ function App() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="./src/imagenes/manejadores.png"
+              src="./public/imagenes/manejadores.png"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -188,7 +188,7 @@ function App() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                    src="./src/imagenes/entidad.png"
+                    src="./public/imagenes/entidad.png"
                   />
                   <div className="flex-grow">
                     <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
@@ -211,7 +211,7 @@ function App() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-left sm:mb-0 mb-4"
-                    src="./src/imagenes/relacion.jpg"
+                    src="./public/imagenes/relacion.jpg"
                   />
                   <div className="flex-grow">
                     <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
@@ -254,7 +254,7 @@ function App() {
             <img
               alt="atributos"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded"
-              src="./src/imagenes/atributo.png"
+              src="./public/imagenes/atributo.png"
             />
           </div>
         </div>
@@ -324,7 +324,7 @@ function App() {
               <img
                 alt="content"
                 className=" object-center object-contain h-full w-full"
-                src="./src/imagenes/modeloer.jpg"
+                src="./public/imagenes/modeloer.jpg"
               />
             </div>
             <p className="leading-relaxed text-lg mb-8 text-justify pt-7">
