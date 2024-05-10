@@ -1,3 +1,13 @@
+import bddimg from "/imagenes/bdd.jpg";
+import bddre from "/imagenes/bddrelacionales.jpg";
+import bddNoSQL from "/imagenes/bddNoSQL.jpg";
+import bddrientadaobjetos from "/imagenes/bddrientadaobjetos.png";
+import bddnube from "/imagenes/bddnube.jpg";
+import manejadores from "/imagenes/manejadores.png";
+import entidad from "/imagenes/entidad.png";
+import relacion from "/imagenes/relacion.jpg";
+import atributo from "/imagenes/atributo.png";
+
 function App() {
   return (
     <>
@@ -41,7 +51,7 @@ function App() {
               <img
                 alt="content"
                 className=" object-center object-conver h-full w-full"
-                src="./public/imagenes/bdd.jpg"
+                src={bddimg}
               />
             </div>
             <p className="leading-relaxed text-lg mb-8 text-justify pt-3">
@@ -70,7 +80,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./public/imagenes/bddrelacionales.jpg"
+                  src={bddre}
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -91,7 +101,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./public/imagenes/bddNoSQL.jpg"
+                  src={bddNoSQL}
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -111,7 +121,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./public/imagenes/bddrientadaobjetos.png"
+                  src={bddrientadaobjetos}
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -130,7 +140,7 @@ function App() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                  src="./public/imagenes/bddnube.jpg"
+                  src={bddnube}
                 />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-black">
@@ -155,7 +165,7 @@ function App() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="./public/imagenes/manejadores.png"
+              src={manejadores}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -188,7 +198,7 @@ function App() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-center sm:mb-0 mb-4"
-                    src="./public/imagenes/entidad.png"
+                    src={entidad}
                   />
                   <div className="flex-grow">
                     <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
@@ -211,7 +221,7 @@ function App() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-contain object-left sm:mb-0 mb-4"
-                    src="./public/imagenes/relacion.jpg"
+                    src={relacion}
                   />
                   <div className="flex-grow">
                     <h2 className="text-gray-900 text-xl title-font font-medium mb-3">
@@ -254,7 +264,7 @@ function App() {
             <img
               alt="atributos"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded"
-              src="./public/imagenes/atributo.png"
+              src={atributo}
             />
           </div>
         </div>
